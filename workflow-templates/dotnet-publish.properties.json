@@ -1,0 +1,11 @@
+{
+    "name": "Bearded .NET Publish Workflow",
+    "description": "Template for Publishing all .NET targets in the repository using the dotnet command.",
+    "iconName": "bearded-icon",
+    "categories": [
+        "C#"
+    ],
+    "filePatterns": [
+        ".*\\.sln$"
+    ]
+}
