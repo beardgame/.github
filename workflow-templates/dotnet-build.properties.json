@@ -1,0 +1,11 @@
+{
+    "name": "Bearded .NET Build Workflow",
+    "description": "Template for building all .NET targets in the repository using the dotnet command.",
+    "iconName": "bearded-icon",
+    "categories": [
+        "C#"
+    ],
+    "filePatterns": [
+        ".*\\.sln$"
+    ]
+}
