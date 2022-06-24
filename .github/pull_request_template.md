@@ -5,7 +5,7 @@
   * `fix` if your PR includes a fix for unintentional behavior;
   * `feature` if your PR includes new functionality;
   * `breaking-change` if your PR includes a change that may break existing clients;
-  * `ignore-release` if your PR should not be included in release notes (for example if it's exclusively related to maintenance and/or CI).
+  * `ignore-for-release` if your PR should not be included in release notes (for example if it's exclusively related to maintenance and/or CI).
 If one of these tags is not available, contact somebody from the beardgame/owners team.
 -->
 
