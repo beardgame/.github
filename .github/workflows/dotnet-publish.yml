@@ -1,8 +1,6 @@
 on:
   workflow_call:
     secrets:
-      GITHUB_TOKEN:
-        required: true
       NUGET_API_KEY:
         required: true
 
