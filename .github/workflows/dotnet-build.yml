@@ -1,5 +1,9 @@
 on:
   workflow_call:
+    inputs:
+      dotnet-version:
+        required: true
+        type: string
 
 jobs:
   dotnet-build:
@@ -12,9 +16,7 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: |
-            3.1.x
-            6.0.x
+          dotnet-version: ${{ inputs.dotnet-version }}
       - name: Install dependencies
         run: dotnet restore
       - name: Build
