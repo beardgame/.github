@@ -39,7 +39,7 @@ jobs:
         run: dotnet pack --configuration Release --no-restore -p:PackageVersion=${RELEASE_VERSION:1}
 
       - name: Create a Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ env.RELEASE_VERSION }}
           name: Release ${{ env.RELEASE_VERSION }}
